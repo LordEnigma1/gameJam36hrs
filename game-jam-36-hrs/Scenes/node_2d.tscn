@@ -21,6 +21,9 @@ animations = [{
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=2009315106]
 
+[node name="StaticBody2D" type="StaticBody2D" parent="Sprite2D" unique_id=681606139]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Sprite2D/StaticBody2D" unique_id=1434910605]
 [node name="StaticBody2D" type="StaticBody2D" parent="Sprite2D" unique_id=776955953]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Sprite2D/StaticBody2D" unique_id=325283593]

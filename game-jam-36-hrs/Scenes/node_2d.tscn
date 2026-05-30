@@ -24,6 +24,9 @@ animations = [{
 [node name="StaticBody2D" type="StaticBody2D" parent="Sprite2D" unique_id=681606139]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Sprite2D/StaticBody2D" unique_id=1434910605]
+[node name="StaticBody2D" type="StaticBody2D" parent="Sprite2D" unique_id=776955953]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Sprite2D/StaticBody2D" unique_id=325283593]
 shape = SubResource("RectangleShape2D_j2wod")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=574714785]
